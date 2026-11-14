@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIDE</title>
+<meta name="description" content="AIDE: a desktop app for running many AI coding agents at once, with an agent that decides what needs you. Coming soon.">
+<style>
+  :root { --bg:#0b0c0f; --fg:#eceef2; --muted:#8b92a0; --line:#23262d; --accent:#7aa5ff; }
+  @media (prefers-color-scheme: light) { :root { --bg:#f7f7f5; --fg:#15171c; --muted:#5d6370; --line:#e1e2e6; --accent:#2a5bd0; } }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+         display:grid; place-items:center; padding:24px 16px; }
+  main { max-width:560px; width:100%; }
+  .mark { font:700 15px/1 ui-monospace, "SF Mono", Menlo, monospace; letter-spacing:.18em; color:var(--muted); margin:0 0 40px; display:flex; align-items:center; gap:10px; }
+  .mark i { width:9px; height:9px; border-radius:50%; background:var(--accent); box-shadow:0 0 0 4px color-mix(in srgb, var(--accent) 20%, transparent); }
+  h1 { font-size:clamp(30px, 6vw, 44px); line-height:1.12; letter-spacing:-.02em; margin:0 0 18px; font-weight:650; }
+  p { color:var(--muted); margin:0 0 14px; font-size:17px; }
+  .soon { margin-top:36px; padding-top:18px; border-top:1px solid var(--line); font:13px ui-monospace, Menlo, monospace; color:var(--muted); letter-spacing:.04em; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark"><i></i>AIDE</div>
+  <h1>Run many coding agents. See only what needs you.</h1>
+  <p>AIDE is a desktop app for running and steering many AI coding-agent sessions at once. Its own agent decides what matters right now, what you should see and how your screen is laid out, and you stay in control.</p>
+  <p>Your own Claude Code and Codex, untouched. No telemetry, no account needed.</p>
+  <div class="soon">Coming soon</div>
+</main>
+</body>
+</html>
